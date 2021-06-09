@@ -9,4 +9,11 @@ namespace my_books.Data.ViewModels
     {
         public string FullName { get; set; }
     }
+
+    public class BooksOfAuthorVM
+    {
+        public string FullName;
+
+        public List<string> BookTitles;
+    }
 }
